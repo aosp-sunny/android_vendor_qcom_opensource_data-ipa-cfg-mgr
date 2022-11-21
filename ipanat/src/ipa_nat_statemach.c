@@ -863,7 +863,7 @@ static int _smDelTbl(
  */
 static int _smFirstTbl(
 	ipa_nati_obj*    nati_obj_ptr,
-	ipa_nati_trigger trigger,
+	__attribute__((unused)) ipa_nati_trigger trigger,
 	void*           arb_data_ptr )
 {
 	table_add_args* args = (table_add_args*) arb_data_ptr;
