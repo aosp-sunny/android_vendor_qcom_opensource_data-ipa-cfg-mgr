@@ -11,6 +11,7 @@ cc_binary {
         "-Wall",
         "-Werror",
         "-Wno-error=macro-redefined",
+        "-Wno-unused-variable",
     ],
 
     srcs: [
