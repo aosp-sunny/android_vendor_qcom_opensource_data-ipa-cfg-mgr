@@ -28,5 +28,4 @@ cc_library_shared {
         "-Wno-unused-variable",
     ] + ["-DFEATURE_IPA_ANDROID"],
 
-    clang: true,
 }
