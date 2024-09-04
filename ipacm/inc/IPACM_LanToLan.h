@@ -48,6 +48,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #endif /* defined(FEATURE_IPA_ANDROID) */
 #include <list>
 
+using namespace std;
+
 #define MAX_NUM_CACHED_CLIENT_ADD_EVENT 10
 #define MAX_NUM_IFACE 10
 #define MAX_NUM_CLIENT 16
